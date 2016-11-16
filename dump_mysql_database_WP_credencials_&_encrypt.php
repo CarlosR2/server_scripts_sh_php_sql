@@ -1,7 +1,7 @@
 <?php
 /*
 
-Call this script remotely (w ?make_backup=true&file=some_file.sql) and it will dump MYSQL database w wp-config.php credentials & encrypt (optional) with random password (saved and encrypted with some public key: public.pem). inform later to callback
+Call this script remotely (including ?make_backup=true&file=some_file.sql) and it will dump MYSQL database w wp-config.php credentials & encrypt (optional) with random password (saved and encrypted with some public key: public.pem). inform later to callback
 
 
 
