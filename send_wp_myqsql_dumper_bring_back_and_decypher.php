@@ -146,9 +146,9 @@ if(isset($_GET['callback'])){
 
 	$url_callback = "";
 
-	//$host = '178.62.234.139';
+	
 	$url_to_call = "http://".$domain.'/'.basename(DIR_BACKUPER).'?';;	
-	// http://dianaorero.com/_read_database.php?make_backup=1&file=backup.sql&callback=&callback_false=
+	
 	$db = "";
 	$remote_backup_file = 'backup.sql';
 	$local_backup_file = DIR.$db.'_'.date('Ymd').'.sql';
